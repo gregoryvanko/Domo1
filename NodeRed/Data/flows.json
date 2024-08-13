@@ -1,0 +1,2859 @@
+[
+    {
+        "id": "7f2e15530399ec7c",
+        "type": "tab",
+        "label": "Ores",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "cd71e8e6a42e141d",
+        "type": "tab",
+        "label": "Onduleur",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "c1981345d770c737",
+        "type": "tab",
+        "label": "InfluxDb",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0c6e7b6e45b1e5f5",
+        "type": "group",
+        "z": "cd71e8e6a42e141d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2cddc15ad12941ae",
+            "e8c81f60e25df6f4",
+            "78f0dda1a9f399ca",
+            "31194178594411f6",
+            "81bbd465718fec0d",
+            "0bf197a599fb1f52",
+            "cdeb8428f964ca4b"
+        ],
+        "x": 154,
+        "y": 439,
+        "w": 752,
+        "h": 162
+    },
+    {
+        "id": "eac495db649eb880",
+        "type": "group",
+        "z": "cd71e8e6a42e141d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "0c8f2177406684b9",
+            "e484cc4020839de7",
+            "27ce89884027278f",
+            "3b96544ded41375b"
+        ],
+        "x": 154,
+        "y": 279,
+        "w": 732,
+        "h": 142
+    },
+    {
+        "id": "610cd41a8c602423",
+        "type": "group",
+        "z": "cd71e8e6a42e141d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "256dfdc1a75fe284",
+            "65ac135e71730a8d",
+            "7869f7efa778bd6a"
+        ],
+        "x": 154,
+        "y": 179,
+        "w": 692,
+        "h": 82
+    },
+    {
+        "id": "1a3e129cb2af44b6",
+        "type": "group",
+        "z": "cd71e8e6a42e141d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "54f1273e3fc6714b",
+            "be5e4d53990352e9",
+            "48347a796fdbb487",
+            "a8eb57dad11158c2",
+            "fd1df7a2c8f97595"
+        ],
+        "x": 154,
+        "y": 619,
+        "w": 712,
+        "h": 162
+    },
+    {
+        "id": "9dade367663dbd18",
+        "type": "group",
+        "z": "cd71e8e6a42e141d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "687c9e3e08726fcc",
+            "37ae37fec0999b79",
+            "f2b2422ff9945f44",
+            "910a2f71c16660b2",
+            "ce843e27e87e842f"
+        ],
+        "x": 154,
+        "y": 799,
+        "w": 712,
+        "h": 162
+    },
+    {
+        "id": "abe5504691830bc6",
+        "type": "group",
+        "z": "cd71e8e6a42e141d",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "0117b1bd1661920f",
+            "e6cf3903f0a76787",
+            "49668dedb6a4b233",
+            "7f2818bb36f331fb",
+            "3f27a11d7c636ad2"
+        ],
+        "x": 154,
+        "y": 979,
+        "w": 712,
+        "h": 162
+    },
+    {
+        "id": "2a147ea80386da9a",
+        "type": "group",
+        "z": "c1981345d770c737",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ee19af1777c4b76a",
+            "62785aa142ac9229",
+            "8a9628be4dc9ad53",
+            "99ef8266108f74e6",
+            "a8c869c55382bed6"
+        ],
+        "x": 74,
+        "y": 19,
+        "w": 672,
+        "h": 142
+    },
+    {
+        "id": "89b795d3b4f26f1d",
+        "type": "group",
+        "z": "c1981345d770c737",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ad1a9a5352f229fb",
+            "e069313775283bde",
+            "d74a86eb4342ec37",
+            "8fc2f141b831d70e",
+            "02ad9929f161be3d"
+        ],
+        "x": 74,
+        "y": 239,
+        "w": 692,
+        "h": 142
+    },
+    {
+        "id": "f378dcd304a2e0bb",
+        "type": "ui_group",
+        "name": "Actual",
+        "tab": "797770e5e0f5c953",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "797770e5e0f5c953",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f459577feadc5971",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#3a88fe",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#3a88fe",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#3a88fe",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#86b6fe",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#3a88fe",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Domo1",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "25bc896e95de4eb3",
+        "type": "ui_group",
+        "name": "Courant",
+        "tab": "797770e5e0f5c953",
+        "order": 2,
+        "disp": true,
+        "width": 4,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "68ba027ed8606373",
+        "type": "ui_group",
+        "name": "Tension",
+        "tab": "797770e5e0f5c953",
+        "order": 3,
+        "disp": true,
+        "width": 4,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7ff1409195f02464",
+        "type": "ui_group",
+        "name": "Puissance consommée",
+        "tab": "797770e5e0f5c953",
+        "order": 5,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4ac36433607632d7",
+        "type": "ui_group",
+        "name": "Puissance injectée",
+        "tab": "797770e5e0f5c953",
+        "order": 6,
+        "disp": true,
+        "width": 5,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7ca3bebd90c9b78c",
+        "type": "ui_group",
+        "name": "Indexe consommation",
+        "tab": "797770e5e0f5c953",
+        "order": 7,
+        "disp": true,
+        "width": 4,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "35653e7b97735470",
+        "type": "ui_group",
+        "name": "Index injection",
+        "tab": "797770e5e0f5c953",
+        "order": 8,
+        "disp": true,
+        "width": 4,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "80bc49682e5f1b10",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "Influxdb.vanko.be",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "https://influxdb.vanko.be",
+        "timeout": "10",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "9fcb880110cef2ad",
+        "type": "modbus-client",
+        "name": "Onduleur",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "failureLogEnabled": true,
+        "tcpHost": "192.168.30.8",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "2000",
+        "parallelUnitIdsAllowed": true,
+        "showErrors": false,
+        "showWarnings": true,
+        "showLogs": true
+    },
+    {
+        "id": "04cb562b95800ef3",
+        "type": "ui_tab",
+        "name": "Onduleur",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c693398399d6e2d6",
+        "type": "ui_group",
+        "name": "Real Time",
+        "tab": "04cb562b95800ef3",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b63bbdf32926218b",
+        "type": "ui_group",
+        "name": "Graph",
+        "tab": "04cb562b95800ef3",
+        "order": 2,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fb26c04adde75b24",
+        "type": "ui_group",
+        "name": "Graph",
+        "tab": "797770e5e0f5c953",
+        "order": 4,
+        "disp": true,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9f47ac42936e434b",
+        "type": "p1reader",
+        "z": "7f2e15530399ec7c",
+        "name": "Ores",
+        "port": "/dev/ttyUSB0",
+        "baudRate": 115200,
+        "parity": "none",
+        "dataBits": 8,
+        "stopBits": 1,
+        "debug": false,
+        "x": 70,
+        "y": 900,
+        "wires": [
+            [
+                "7b616a78dc52e559",
+                "633857e8b05eb1e1",
+                "e8fe5a243b45a7e7",
+                "db2ebc10f5284b51",
+                "1b05f47bb8ec770a",
+                "e5dfee5561d5d961",
+                "b294a932086893d2",
+                "d0c764d664a1625c",
+                "94d6165acc744ae2",
+                "c572fd3744b425d3",
+                "95cc93f06a3ea3f9",
+                "cd46ad214ff8d9cb",
+                "934eeda487c35cb2",
+                "3c5586fd90ed661d",
+                "523c623bc6902e46",
+                "5023d388465bd7e6",
+                "1e9d205908e34fb9",
+                "5267d8fb35198428",
+                "acf805c31ac38b1d",
+                "c915f8bc2883364d",
+                "e75e2fb4f5f21bdf",
+                "3ac590557dcf7506",
+                "fe46d9c3d29dc8ed",
+                "ce43ad53610b3c96",
+                "b55c05425264ae0d"
+            ]
+        ]
+    },
+    {
+        "id": "7b616a78dc52e559",
+        "type": "delay",
+        "z": "7f2e15530399ec7c",
+        "name": "1msg/10sec",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "10",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 310,
+        "y": 80,
+        "wires": [
+            [
+                "3df9ae48ac143ad0",
+                "c7a7269569ab4568"
+            ]
+        ]
+    },
+    {
+        "id": "3df9ae48ac143ad0",
+        "type": "debug",
+        "z": "7f2e15530399ec7c",
+        "name": "All data",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 520,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "7c0ddbbad118704a",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "f378dcd304a2e0bb",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Injection",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 520,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "633857e8b05eb1e1",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Delivered",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.delivered.actual.reading & \" \" & payload.electricity.delivered.actual.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 260,
+        "wires": [
+            [
+                "7c0ddbbad118704a",
+                "67978d400f93d9d2"
+            ]
+        ]
+    },
+    {
+        "id": "e8fe5a243b45a7e7",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Received",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.received.actual.reading & \" \" & payload.electricity.received.actual.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 200,
+        "wires": [
+            [
+                "fa28d872affc9996",
+                "8da92b770b3f8cb1"
+            ]
+        ]
+    },
+    {
+        "id": "fa28d872affc9996",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "f378dcd304a2e0bb",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Consommation",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 540,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "7711b61c026d3228",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "25bc896e95de4eb3",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "L1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "db2ebc10f5284b51",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Current L1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.instantaneous.current.L1.reading & \" \" & payload.electricity.instantaneous.current.L1.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 380,
+        "wires": [
+            [
+                "7711b61c026d3228"
+            ]
+        ]
+    },
+    {
+        "id": "6e2e11c85e76a5bf",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "25bc896e95de4eb3",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "L2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "1b05f47bb8ec770a",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Current L2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.instantaneous.current.L2.reading & \" \" & payload.electricity.instantaneous.current.L2.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 440,
+        "wires": [
+            [
+                "6e2e11c85e76a5bf"
+            ]
+        ]
+    },
+    {
+        "id": "1ad1c4e34e8a3ec0",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "25bc896e95de4eb3",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "L3",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "e5dfee5561d5d961",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Current L3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.instantaneous.current.L3.reading & \" \" & payload.electricity.instantaneous.current.L3.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 500,
+        "wires": [
+            [
+                "1ad1c4e34e8a3ec0"
+            ]
+        ]
+    },
+    {
+        "id": "223763a544f11dd2",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "68ba027ed8606373",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "L1",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "b294a932086893d2",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Tension L1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.instantaneous.voltage.L1.reading & \" \" & payload.electricity.instantaneous.voltage.L1.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 580,
+        "wires": [
+            [
+                "223763a544f11dd2"
+            ]
+        ]
+    },
+    {
+        "id": "fa44de62b9932796",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "68ba027ed8606373",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "L2",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "5bb406090cad526d",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "68ba027ed8606373",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "L3",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "d0c764d664a1625c",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Tension L2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.instantaneous.voltage.L2.reading & \" \" & payload.electricity.instantaneous.voltage.L2.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 640,
+        "wires": [
+            [
+                "fa44de62b9932796"
+            ]
+        ]
+    },
+    {
+        "id": "94d6165acc744ae2",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Tension L3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.instantaneous.voltage.L3.reading & \" \" & payload.electricity.instantaneous.voltage.L3.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 700,
+        "wires": [
+            [
+                "5bb406090cad526d"
+            ]
+        ]
+    },
+    {
+        "id": "018a6dfca49c0eaa",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "7ff1409195f02464",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "L1+",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "c572fd3744b425d3",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Puissance L1+",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.instantaneous.power.positive.L1.reading & \" \" & payload.electricity.instantaneous.power.positive.L1.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 800,
+        "wires": [
+            [
+                "018a6dfca49c0eaa"
+            ]
+        ]
+    },
+    {
+        "id": "613238214b185c01",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "7ff1409195f02464",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "L2+",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "f5787ca9f4d9767f",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "7ff1409195f02464",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "L3+",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "95cc93f06a3ea3f9",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Puissance L2+",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.instantaneous.power.positive.L2.reading & \" \" & payload.electricity.instantaneous.power.positive.L2.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 860,
+        "wires": [
+            [
+                "613238214b185c01"
+            ]
+        ]
+    },
+    {
+        "id": "cd46ad214ff8d9cb",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Puissance L3+",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.instantaneous.power.positive.L3.reading & \" \" & payload.electricity.instantaneous.power.positive.L3.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 920,
+        "wires": [
+            [
+                "f5787ca9f4d9767f"
+            ]
+        ]
+    },
+    {
+        "id": "baf3fd60529c7885",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "4ac36433607632d7",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "L1-",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "934eeda487c35cb2",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Puissance L1-",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.instantaneous.power.negative.L1.reading & \" \" & payload.electricity.instantaneous.power.negative.L1.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 1060,
+        "wires": [
+            [
+                "baf3fd60529c7885"
+            ]
+        ]
+    },
+    {
+        "id": "68529a7fc012c636",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "4ac36433607632d7",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "L2-",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "3c5586fd90ed661d",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Puissance L2-",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.instantaneous.power.negative.L2.reading & \" \" & payload.electricity.instantaneous.power.negative.L2.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 1120,
+        "wires": [
+            [
+                "68529a7fc012c636"
+            ]
+        ]
+    },
+    {
+        "id": "3ea284665475e4a3",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "4ac36433607632d7",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "L1-",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 510,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "523c623bc6902e46",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Puissance L3-",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.instantaneous.power.negative.L3.reading & \" \" & payload.electricity.instantaneous.power.negative.L3.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 1180,
+        "wires": [
+            [
+                "3ea284665475e4a3"
+            ]
+        ]
+    },
+    {
+        "id": "f0894a67e1d2d181",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "7ff1409195f02464",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Total+",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#0433ff",
+        "x": 510,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "5023d388465bd7e6",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Total +",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.instantaneous.power.positive.L1.reading + payload.electricity.instantaneous.power.positive.L2.reading + payload.electricity.instantaneous.power.positive.L3.reading & \" \" & payload.electricity.instantaneous.power.positive.L3.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 980,
+        "wires": [
+            [
+                "f0894a67e1d2d181"
+            ]
+        ]
+    },
+    {
+        "id": "c44e2450e9ad3618",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "4ac36433607632d7",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Total-",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#0433ff",
+        "x": 510,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "1e9d205908e34fb9",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Total -",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.instantaneous.power.negative.L1.reading + payload.electricity.instantaneous.power.negative.L2.reading + payload.electricity.instantaneous.power.negative.L3.reading & \" \" & payload.electricity.instantaneous.power.negative.L3.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 290,
+        "y": 1240,
+        "wires": [
+            [
+                "c44e2450e9ad3618"
+            ]
+        ]
+    },
+    {
+        "id": "5267d8fb35198428",
+        "type": "function",
+        "z": "7f2e15530399ec7c",
+        "name": "Max Month",
+        "func": "let month = msg.payload.electricity.demand.maximumDemandLastMonths.months\nlet max = 0\n\nmonth.forEach(function(element) {\n    if (element.value > max){\n        max = element.value\n    }\n    \n});\nmsg.payload = max\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 320,
+        "wires": [
+            [
+                "ac3b66c1e3b31a39"
+            ]
+        ]
+    },
+    {
+        "id": "ac3b66c1e3b31a39",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "f378dcd304a2e0bb",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Pointe max",
+        "format": "{{msg.payload}} Kw",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 530,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "c23022b7d70fcf17",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "7ca3bebd90c9b78c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Jour",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#0433ff",
+        "x": 590,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "acf805c31ac38b1d",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Energie Consmmée jour",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.received.tariff1.reading & \" \" & payload.electricity.received.tariff1.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 1320,
+        "wires": [
+            [
+                "c23022b7d70fcf17"
+            ]
+        ]
+    },
+    {
+        "id": "1460dd02722da4e7",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "7ca3bebd90c9b78c",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Nuit",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#0433ff",
+        "x": 590,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "c915f8bc2883364d",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Energie Consmmée nuit",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.received.tariff2.reading & \" \" & payload.electricity.received.tariff2.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 1380,
+        "wires": [
+            [
+                "1460dd02722da4e7"
+            ]
+        ]
+    },
+    {
+        "id": "5915134e53db4109",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "7ca3bebd90c9b78c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Total",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#0433ff",
+        "x": 590,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "e75e2fb4f5f21bdf",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Energie Consmmée Total",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.received.tariff1.reading + payload.electricity.received.tariff2.reading & \" \" & payload.electricity.received.tariff2.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 1440,
+        "wires": [
+            [
+                "5915134e53db4109"
+            ]
+        ]
+    },
+    {
+        "id": "64cfd1770a93ec63",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "35653e7b97735470",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Jour",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#0433ff",
+        "x": 590,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "3ac590557dcf7506",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Energie injectée jour",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.delivered.tariff1.reading & \" \" & payload.electricity.delivered.tariff1.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 1520,
+        "wires": [
+            [
+                "64cfd1770a93ec63"
+            ]
+        ]
+    },
+    {
+        "id": "6d3164a2fc00d2e1",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "35653e7b97735470",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Nuit",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#0433ff",
+        "x": 590,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "fe46d9c3d29dc8ed",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Energie injectée nuit",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.delivered.tariff2.reading & \" \" & payload.electricity.delivered.tariff2.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 1580,
+        "wires": [
+            [
+                "6d3164a2fc00d2e1"
+            ]
+        ]
+    },
+    {
+        "id": "9e5f6f1d359a6d1e",
+        "type": "ui_text",
+        "z": "7f2e15530399ec7c",
+        "group": "35653e7b97735470",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Total",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#0433ff",
+        "x": 590,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "ce43ad53610b3c96",
+        "type": "change",
+        "z": "7f2e15530399ec7c",
+        "name": "Energie injectee total",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.electricity.delivered.tariff1.reading + payload.electricity.delivered.tariff2.reading & \" \" & payload.electricity.delivered.tariff2.unit",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 1640,
+        "wires": [
+            [
+                "9e5f6f1d359a6d1e"
+            ]
+        ]
+    },
+    {
+        "id": "c7a7269569ab4568",
+        "type": "function",
+        "z": "7f2e15530399ec7c",
+        "name": "Get 10 sec data",
+        "func": "let Elec = msg.payload.electricity\nlet Time = new Date().getTime()\n\n// Puissance total\nlet PuissanceTotal = global.get(\"PuissanceTotal\") || []\nlet CalcData = 0\nCalcData = (Elec.received.actual.reading * 1000) - (Elec.delivered.actual.reading * 1000)\nPuissanceTotal.push({ time: Time, data: CalcData })\nglobal.set(\"PuissanceTotal\", PuissanceTotal)\n\n// Puissance L1\nlet PuissanceL1 = global.get(\"PuissanceL1\") || []\nCalcData = 0\nCalcData = (Elec.instantaneous.power.positive.L1.reading * 1000) - (Elec.instantaneous.power.negative.L1.reading * 1000)\nPuissanceL1.push({ time: Time, data: CalcData })\nglobal.set(\"PuissanceL1\", PuissanceL1)\n\n// Puissance L2\nlet PuissanceL2 = global.get(\"PuissanceL2\") || []\nCalcData = 0\nCalcData = (Elec.instantaneous.power.positive.L2.reading * 1000) - (Elec.instantaneous.power.negative.L2.reading * 1000)\nPuissanceL2.push({ time: Time, data: CalcData })\nglobal.set(\"PuissanceL2\", PuissanceL2)\n\n// Puissance L3\nlet PuissanceL3 = global.get(\"PuissanceL3\") || []\nCalcData = 0\nCalcData = (Elec.instantaneous.power.positive.L3.reading * 1000) - (Elec.instantaneous.power.negative.L3.reading * 1000)\nPuissanceL3.push({ time: Time, data: CalcData })\nglobal.set(\"PuissanceL3\", PuissanceL3)\n\n// Courant L1\nlet CourantL1 = global.get(\"CourantL1\") || []\nCalcData = 0\nCalcData = Elec.instantaneous.current.L1.reading\nCourantL1.push({ time: Time, data: CalcData })\nglobal.set(\"CourantL1\", CourantL1)\n\n// Courant L2\nlet CourantL2 = global.get(\"CourantL2\") || []\nCalcData = 0\nCalcData = Elec.instantaneous.current.L2.reading\nCourantL2.push({ time: Time, data: CalcData })\nglobal.set(\"CourantL2\", CourantL2)\n\n// Courant L3\nlet CourantL3 = global.get(\"CourantL3\") || []\nCalcData = 0\nCalcData = Elec.instantaneous.current.L3.reading\nCourantL3.push({ time: Time, data: CalcData })\nglobal.set(\"CourantL3\", CourantL3)\n\n// Tension L1\nlet TensionL1 = global.get(\"TensionL1\") || []\nCalcData = 0\nCalcData = Elec.instantaneous.voltage.L1.reading\nTensionL1.push({ time: Time, data: CalcData })\nglobal.set(\"TensionL1\", TensionL1)\n\n// Tension L2\nlet TensionL2 = global.get(\"TensionL2\") || []\nCalcData = 0\nCalcData = Elec.instantaneous.voltage.L2.reading\nTensionL2.push({ time: Time, data: CalcData })\nglobal.set(\"TensionL2\", TensionL2)\n\n// Tension L3\nlet TensionL3 = global.get(\"TensionL3\") || []\nCalcData = 0\nCalcData = Elec.instantaneous.voltage.L3.reading\nTensionL3.push({ time: Time, data: CalcData })\nglobal.set(\"TensionL3\", TensionL3)",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b55c05425264ae0d",
+        "type": "delay",
+        "z": "7f2e15530399ec7c",
+        "name": "1msg/1min",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 310,
+        "y": 120,
+        "wires": [
+            [
+                "7949ad035e94065c"
+            ]
+        ]
+    },
+    {
+        "id": "7949ad035e94065c",
+        "type": "function",
+        "z": "7f2e15530399ec7c",
+        "name": "Get 1 min data",
+        "func": "let Elec = msg.payload.electricity\n//let Time = new Date(msg.payload.timestamp).getTime()\nlet Time = new Date().getTime()\n\n// Index prélevee total\nlet IndexPrelTotal = global.get(\"IndexPrelTotal\") || []\nlet CalcData = 0\nCalcData = Math.round((Elec.received.tariff1.reading + Elec.received.tariff2.reading) * 1000) \nIndexPrelTotal.push({ time: Time, data: CalcData })\nglobal.set(\"IndexPrelTotal\", IndexPrelTotal)\n\n// Index injecté total\nlet IndexInjectTotal = global.get(\"IndexInjectTotal\") || []\nCalcData = 0\nCalcData = Math.round((Elec.delivered.tariff1.reading + Elec.delivered.tariff2.reading) * 1000)\nIndexInjectTotal.push({ time: Time, data: CalcData })\nglobal.set(\"IndexInjectTotal\", IndexInjectTotal)",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "321e7fefb8384a61",
+        "type": "ui_chart",
+        "z": "7f2e15530399ec7c",
+        "name": "Consommation",
+        "group": "fb26c04adde75b24",
+        "order": 6,
+        "width": "0",
+        "height": "0",
+        "label": "Consommation",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 900,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "47703beca5817f17",
+        "type": "ui_chart",
+        "z": "7f2e15530399ec7c",
+        "name": "Injection",
+        "group": "fb26c04adde75b24",
+        "order": 6,
+        "width": "0",
+        "height": "0",
+        "label": "Injection",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 880,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8da92b770b3f8cb1",
+        "type": "delay",
+        "z": "7f2e15530399ec7c",
+        "name": "1msg/1min",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 710,
+        "y": 200,
+        "wires": [
+            [
+                "321e7fefb8384a61"
+            ]
+        ]
+    },
+    {
+        "id": "67978d400f93d9d2",
+        "type": "delay",
+        "z": "7f2e15530399ec7c",
+        "name": "1msg/1min",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 710,
+        "y": 260,
+        "wires": [
+            [
+                "47703beca5817f17",
+                "f14c04364aebd1e4"
+            ]
+        ]
+    },
+    {
+        "id": "f14c04364aebd1e4",
+        "type": "link out",
+        "z": "7f2e15530399ec7c",
+        "name": "Injection",
+        "mode": "link",
+        "links": [
+            "81bbd465718fec0d"
+        ],
+        "x": 835,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "256dfdc1a75fe284",
+        "type": "modbus-read",
+        "z": "cd71e8e6a42e141d",
+        "g": "610cd41a8c602423",
+        "name": "Get Daily Energy",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "32114",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "m",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "9fcb880110cef2ad",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 280,
+        "y": 220,
+        "wires": [
+            [],
+            [
+                "65ac135e71730a8d"
+            ]
+        ]
+    },
+    {
+        "id": "65ac135e71730a8d",
+        "type": "function",
+        "z": "cd71e8e6a42e141d",
+        "g": "610cd41a8c602423",
+        "name": "Convert U32 * 10",
+        "func": "const buf = Buffer.from(msg.payload.buffer);\nconst value = buf.readUInt32BE();\nmsg.payload = value * 10;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 220,
+        "wires": [
+            [
+                "7869f7efa778bd6a"
+            ]
+        ]
+    },
+    {
+        "id": "0c8f2177406684b9",
+        "type": "modbus-read",
+        "z": "cd71e8e6a42e141d",
+        "g": "eac495db649eb880",
+        "name": "Get Total Energy",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "32106",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "m",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "9fcb880110cef2ad",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 280,
+        "y": 380,
+        "wires": [
+            [],
+            [
+                "e484cc4020839de7"
+            ]
+        ]
+    },
+    {
+        "id": "e484cc4020839de7",
+        "type": "function",
+        "z": "cd71e8e6a42e141d",
+        "g": "eac495db649eb880",
+        "name": "Convert U32 * 10",
+        "func": "const buf = Buffer.from(msg.payload.buffer);\nconst value = buf.readUInt32BE();\nmsg.payload = value * 10;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 380,
+        "wires": [
+            [
+                "27ce89884027278f",
+                "3b96544ded41375b"
+            ]
+        ]
+    },
+    {
+        "id": "2cddc15ad12941ae",
+        "type": "modbus-read",
+        "z": "cd71e8e6a42e141d",
+        "g": "0c6e7b6e45b1e5f5",
+        "name": "Get Active Power",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "32080",
+        "quantity": "2",
+        "rate": "1",
+        "rateUnit": "m",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "9fcb880110cef2ad",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 280,
+        "y": 560,
+        "wires": [
+            [],
+            [
+                "e8c81f60e25df6f4"
+            ]
+        ]
+    },
+    {
+        "id": "e8c81f60e25df6f4",
+        "type": "function",
+        "z": "cd71e8e6a42e141d",
+        "g": "0c6e7b6e45b1e5f5",
+        "name": "Convert I32",
+        "func": "const buf = Buffer.from(msg.payload.buffer);\nconst value = buf.readInt32BE();\nmsg.payload = value;\nmsg.topic = \"Onduleur\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 560,
+        "wires": [
+            [
+                "78f0dda1a9f399ca",
+                "31194178594411f6",
+                "cdeb8428f964ca4b"
+            ]
+        ]
+    },
+    {
+        "id": "27ce89884027278f",
+        "type": "function",
+        "z": "cd71e8e6a42e141d",
+        "g": "eac495db649eb880",
+        "name": "Save Total Energy",
+        "func": "let Time = new Date().getTime()\n\n// Onduleur Total Energy\nlet OnduleurTotalEnergy = global.get(\"OnduleurTotalEnergy\") || []\nOnduleurTotalEnergy.push({ time: Time, data: msg.payload })\nglobal.set(\"OnduleurTotalEnergy\", OnduleurTotalEnergy)",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "78f0dda1a9f399ca",
+        "type": "function",
+        "z": "cd71e8e6a42e141d",
+        "g": "0c6e7b6e45b1e5f5",
+        "name": "Save Active Power",
+        "func": "let Time = new Date().getTime()\n\n// Onduleur Active Power\nlet OnduleurActivePower = global.get(\"OnduleurActivePower\") || []\nOnduleurActivePower.push({ time: Time, data: msg.payload })\nglobal.set(\"OnduleurActivePower\", OnduleurActivePower)",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7869f7efa778bd6a",
+        "type": "ui_text",
+        "z": "cd71e8e6a42e141d",
+        "g": "610cd41a8c602423",
+        "group": "c693398399d6e2d6",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Daily Energy",
+        "format": "{{msg.payload}} Wh",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 750,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "3b96544ded41375b",
+        "type": "ui_text",
+        "z": "cd71e8e6a42e141d",
+        "g": "eac495db649eb880",
+        "group": "c693398399d6e2d6",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Total Energy",
+        "format": "{{msg.payload}} Wh",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 750,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "31194178594411f6",
+        "type": "ui_text",
+        "z": "cd71e8e6a42e141d",
+        "g": "0c6e7b6e45b1e5f5",
+        "group": "c693398399d6e2d6",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Active Power",
+        "format": "{{msg.payload}} W",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 750,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "54f1273e3fc6714b",
+        "type": "modbus-read",
+        "z": "cd71e8e6a42e141d",
+        "g": "1a3e129cb2af44b6",
+        "name": "Get Phase A V",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "32069",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "m",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "9fcb880110cef2ad",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 280,
+        "y": 740,
+        "wires": [
+            [],
+            [
+                "be5e4d53990352e9"
+            ]
+        ]
+    },
+    {
+        "id": "be5e4d53990352e9",
+        "type": "function",
+        "z": "cd71e8e6a42e141d",
+        "g": "1a3e129cb2af44b6",
+        "name": "Convert U16 / 10",
+        "func": "const buf = Buffer.from(msg.payload.buffer);\nconst value = buf.readUInt16BE();\nmsg.payload = value / 10;\nmsg.topic = \"A\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 740,
+        "wires": [
+            [
+                "a8eb57dad11158c2",
+                "fd1df7a2c8f97595"
+            ]
+        ]
+    },
+    {
+        "id": "48347a796fdbb487",
+        "type": "function",
+        "z": "cd71e8e6a42e141d",
+        "g": "1a3e129cb2af44b6",
+        "name": "Save Phase A V",
+        "func": "let Time = new Date().getTime()\n\n// Onduleur Phase A V\nlet OnduleurPhaseAV = global.get(\"OnduleurPhaseAV\") || []\nOnduleurPhaseAV.push({ time: Time, data: msg.payload })\nglobal.set(\"OnduleurPhaseAV\", OnduleurPhaseAV)",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a8eb57dad11158c2",
+        "type": "ui_text",
+        "z": "cd71e8e6a42e141d",
+        "g": "1a3e129cb2af44b6",
+        "group": "c693398399d6e2d6",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Phase A (V)",
+        "format": "{{msg.payload}} V",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 750,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "687c9e3e08726fcc",
+        "type": "modbus-read",
+        "z": "cd71e8e6a42e141d",
+        "g": "9dade367663dbd18",
+        "name": "Get Phase B V",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "32070",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "m",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "9fcb880110cef2ad",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 280,
+        "y": 920,
+        "wires": [
+            [],
+            [
+                "37ae37fec0999b79"
+            ]
+        ]
+    },
+    {
+        "id": "37ae37fec0999b79",
+        "type": "function",
+        "z": "cd71e8e6a42e141d",
+        "g": "9dade367663dbd18",
+        "name": "Convert U16 / 10",
+        "func": "const buf = Buffer.from(msg.payload.buffer);\nconst value = buf.readUInt16BE();\nmsg.payload = value / 10;\nmsg.topic = \"B\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 920,
+        "wires": [
+            [
+                "910a2f71c16660b2",
+                "ce843e27e87e842f"
+            ]
+        ]
+    },
+    {
+        "id": "f2b2422ff9945f44",
+        "type": "function",
+        "z": "cd71e8e6a42e141d",
+        "g": "9dade367663dbd18",
+        "name": "Save Phase B V",
+        "func": "let Time = new Date().getTime()\n\n// Onduleur Phase G V\nlet OnduleurPhaseBV = global.get(\"OnduleurPhaseBV\") || []\nOnduleurPhaseBV.push({ time: Time, data: msg.payload })\nglobal.set(\"OnduleurPhaseBV\", OnduleurPhaseBV)",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "910a2f71c16660b2",
+        "type": "ui_text",
+        "z": "cd71e8e6a42e141d",
+        "g": "9dade367663dbd18",
+        "group": "c693398399d6e2d6",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Phase B (V)",
+        "format": "{{msg.payload}} V",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 750,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "0117b1bd1661920f",
+        "type": "modbus-read",
+        "z": "cd71e8e6a42e141d",
+        "g": "abe5504691830bc6",
+        "name": "Get Phase C V",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "showWarnings": true,
+        "unitid": "1",
+        "dataType": "HoldingRegister",
+        "adr": "32071",
+        "quantity": "1",
+        "rate": "1",
+        "rateUnit": "m",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "9fcb880110cef2ad",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 280,
+        "y": 1100,
+        "wires": [
+            [],
+            [
+                "e6cf3903f0a76787"
+            ]
+        ]
+    },
+    {
+        "id": "e6cf3903f0a76787",
+        "type": "function",
+        "z": "cd71e8e6a42e141d",
+        "g": "abe5504691830bc6",
+        "name": "Convert U16 / 10",
+        "func": "const buf = Buffer.from(msg.payload.buffer);\nconst value = buf.readUInt16BE();\nmsg.payload = value / 10;\nmsg.topic = \"C\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 1100,
+        "wires": [
+            [
+                "7f2818bb36f331fb",
+                "3f27a11d7c636ad2"
+            ]
+        ]
+    },
+    {
+        "id": "49668dedb6a4b233",
+        "type": "function",
+        "z": "cd71e8e6a42e141d",
+        "g": "abe5504691830bc6",
+        "name": "Save Phase C V",
+        "func": "let Time = new Date().getTime()\n\n// Onduleur Phase C V\nlet OnduleurPhaseCV = global.get(\"OnduleurPhaseCV\") || []\nOnduleurPhaseCV.push({ time: Time, data: msg.payload })\nglobal.set(\"OnduleurPhaseCV\", OnduleurPhaseCV)",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7f2818bb36f331fb",
+        "type": "ui_text",
+        "z": "cd71e8e6a42e141d",
+        "g": "abe5504691830bc6",
+        "group": "c693398399d6e2d6",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Phase C (V)",
+        "format": "{{msg.payload}} V",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 750,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "81bbd465718fec0d",
+        "type": "link in",
+        "z": "cd71e8e6a42e141d",
+        "g": "0c6e7b6e45b1e5f5",
+        "name": "Ores Injection",
+        "links": [
+            "f14c04364aebd1e4"
+        ],
+        "x": 355,
+        "y": 500,
+        "wires": [
+            [
+                "0bf197a599fb1f52"
+            ]
+        ]
+    },
+    {
+        "id": "0bf197a599fb1f52",
+        "type": "function",
+        "z": "cd71e8e6a42e141d",
+        "g": "0c6e7b6e45b1e5f5",
+        "name": "Fois 1000",
+        "func": "let data = msg.payload\ndata = parseFloat(data.slice(0, -3)) * 1000\nmsg.payload = data\nmsg.topic = \"Ores\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 500,
+        "wires": [
+            [
+                "cdeb8428f964ca4b"
+            ]
+        ]
+    },
+    {
+        "id": "cdeb8428f964ca4b",
+        "type": "ui_chart",
+        "z": "cd71e8e6a42e141d",
+        "g": "0c6e7b6e45b1e5f5",
+        "name": "",
+        "group": "b63bbdf32926218b",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "label": "Active Power onduleur",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 780,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fd1df7a2c8f97595",
+        "type": "link out",
+        "z": "cd71e8e6a42e141d",
+        "g": "1a3e129cb2af44b6",
+        "name": "Graph",
+        "mode": "link",
+        "links": [
+            "579737a10ef21088"
+        ],
+        "x": 745,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "579737a10ef21088",
+        "type": "link in",
+        "z": "cd71e8e6a42e141d",
+        "name": "Phases",
+        "links": [
+            "fd1df7a2c8f97595",
+            "ce843e27e87e842f",
+            "3f27a11d7c636ad2"
+        ],
+        "x": 955,
+        "y": 700,
+        "wires": [
+            [
+                "8721b1251062cf12"
+            ]
+        ]
+    },
+    {
+        "id": "ce843e27e87e842f",
+        "type": "link out",
+        "z": "cd71e8e6a42e141d",
+        "g": "9dade367663dbd18",
+        "name": "Graph",
+        "mode": "link",
+        "links": [
+            "579737a10ef21088"
+        ],
+        "x": 705,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "3f27a11d7c636ad2",
+        "type": "link out",
+        "z": "cd71e8e6a42e141d",
+        "g": "abe5504691830bc6",
+        "name": "Graph",
+        "mode": "link",
+        "links": [
+            "579737a10ef21088"
+        ],
+        "x": 705,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "8721b1251062cf12",
+        "type": "ui_chart",
+        "z": "cd71e8e6a42e141d",
+        "name": "Tension",
+        "group": "b63bbdf32926218b",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "label": "Tension",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "6",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1080,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ee19af1777c4b76a",
+        "type": "cronplus",
+        "z": "c1981345d770c737",
+        "g": "2a147ea80386da9a",
+        "name": "Start every 15 minutes",
+        "outputField": "payload",
+        "timeZone": "",
+        "storeName": "",
+        "commandResponseMsgOutput": "output1",
+        "defaultLocation": "",
+        "defaultLocationType": "default",
+        "outputs": 1,
+        "options": [
+            {
+                "name": "schedule1",
+                "topic": "topic1",
+                "payloadType": "date",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 */15 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            }
+        ],
+        "x": 220,
+        "y": 120,
+        "wires": [
+            [
+                "62785aa142ac9229"
+            ]
+        ]
+    },
+    {
+        "id": "62785aa142ac9229",
+        "type": "function",
+        "z": "c1981345d770c737",
+        "g": "2a147ea80386da9a",
+        "name": "Get All Ores Data",
+        "func": "let AllPayload = []\n\n// PuissanceTotal\nlet PuissanceTotal = global.get(\"PuissanceTotal\") || []\nif (PuissanceTotal.length > 0) {\n    PuissanceTotal.forEach(function (element) {\n        let DataArray = []\n        let datatopayload = { \"time\": element.time, \"PuissanceTotal\": element.data }\n        DataArray.push(datatopayload)\n        DataArray.push({})\n        AllPayload.push(DataArray)\n    });\n}\n\n// PuissanceL1\nlet PuissanceL1 = global.get(\"PuissanceL1\") || []\nif (PuissanceL1.length > 0) {\n    PuissanceL1.forEach(function (element) {\n        let DataArray = []\n        let datatopayload = { \"time\": element.time, \"PuissanceL1\": element.data }\n        DataArray.push(datatopayload)\n        DataArray.push({})\n        AllPayload.push(DataArray)\n    });\n}\n\n// PuissanceL2\nlet PuissanceL2 = global.get(\"PuissanceL2\") || []\nif (PuissanceL2.length > 0) {\n    PuissanceL2.forEach(function (element) {\n        let DataArray = []\n        let datatopayload = { \"time\": element.time, \"PuissanceL2\": element.data }\n        DataArray.push(datatopayload)\n        DataArray.push({})\n        AllPayload.push(DataArray)\n    });\n}\n\n// PuissanceL3\nlet PuissanceL3 = global.get(\"PuissanceL3\") || []\nif (PuissanceL3.length > 0) {\n    PuissanceL3.forEach(function (element) {\n        let DataArray = []\n        let datatopayload = { \"time\": element.time, \"PuissanceL3\": element.data }\n        DataArray.push(datatopayload)\n        DataArray.push({})\n        AllPayload.push(DataArray)\n    });\n}\n\n// CourantL1\nlet CourantL1 = global.get(\"CourantL1\") || []\nif (CourantL1.length > 0) {\n    CourantL1.forEach(function (element) {\n        let DataArray = []\n        let datatopayload = { \"time\": element.time, \"CourantL1\": element.data }\n        DataArray.push(datatopayload)\n        DataArray.push({})\n        AllPayload.push(DataArray)\n    });\n}\n\n// CourantL2\nlet CourantL2 = global.get(\"CourantL2\") || []\nif (CourantL2.length > 0) {\n    CourantL2.forEach(function (element) {\n        let DataArray = []\n        let datatopayload = { \"time\": element.time, \"CourantL2\": element.data }\n        DataArray.push(datatopayload)\n        DataArray.push({})\n        AllPayload.push(DataArray)\n    });\n}\n\n// CourantL3\nlet CourantL3 = global.get(\"CourantL3\") || []\nif (CourantL3.length > 0) {\n    CourantL3.forEach(function (element) {\n        let DataArray = []\n        let datatopayload = { \"time\": element.time, \"CourantL3\": element.data }\n        DataArray.push(datatopayload)\n        DataArray.push({})\n        AllPayload.push(DataArray)\n    });\n}\n\n// TensionL1\nlet TensionL1 = global.get(\"TensionL1\") || []\nif (TensionL1.length > 0) {\n    TensionL1.forEach(function (element) {\n        let DataArray = []\n        let datatopayload = { \"time\": element.time, \"TensionL1\": element.data }\n        DataArray.push(datatopayload)\n        DataArray.push({})\n        AllPayload.push(DataArray)\n    });\n}\n\n// TensionL2\nlet TensionL2 = global.get(\"TensionL2\") || []\nif (TensionL2.length > 0) {\n    TensionL2.forEach(function (element) {\n        let DataArray = []\n        let datatopayload = { \"time\": element.time, \"TensionL2\": element.data }\n        DataArray.push(datatopayload)\n        DataArray.push({})\n        AllPayload.push(DataArray)\n    });\n}\n\n// TensionL3\nlet TensionL3 = global.get(\"TensionL3\") || []\nif (TensionL3.length > 0) {\n    TensionL3.forEach(function (element) {\n        let DataArray = []\n        let datatopayload = { \"time\": element.time, \"TensionL3\": element.data }\n        DataArray.push(datatopayload)\n        DataArray.push({})\n        AllPayload.push(DataArray)\n    });\n}\n\n// IndexPrelTotal\nlet IndexPrelTotal = global.get(\"IndexPrelTotal\") || []\nif (IndexPrelTotal.length > 0) {\n    IndexPrelTotal.forEach(function (element) {\n        let DataArray = []\n        let datatopayload = { \"time\": element.time, \"IndexPrelTotal\": element.data }\n        DataArray.push(datatopayload)\n        DataArray.push({})\n        AllPayload.push(DataArray)\n    });\n}\n\n// IndexInjectTotal\nlet IndexInjectTotal = global.get(\"IndexInjectTotal\") || []\nif (IndexInjectTotal.length > 0) {\n    IndexInjectTotal.forEach(function (element) {\n        let DataArray = []\n        let datatopayload = { \"time\": element.time, \"IndexInjectTotal\": element.data }\n        DataArray.push(datatopayload)\n        DataArray.push({})\n        AllPayload.push(DataArray)\n    });\n}\n\n// Send Msg\nif (AllPayload.length > 0) {\n    return { payload: AllPayload }\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 120,
+        "wires": [
+            [
+                "8a9628be4dc9ad53"
+            ]
+        ]
+    },
+    {
+        "id": "8a9628be4dc9ad53",
+        "type": "influxdb out",
+        "z": "c1981345d770c737",
+        "g": "2a147ea80386da9a",
+        "influxdb": "80bc49682e5f1b10",
+        "name": "Ores",
+        "measurement": "Ores",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "vanko",
+        "bucket": "Rixensart",
+        "x": 670,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "99ef8266108f74e6",
+        "type": "complete",
+        "z": "c1981345d770c737",
+        "g": "2a147ea80386da9a",
+        "name": "Done Ores",
+        "scope": [
+            "8a9628be4dc9ad53"
+        ],
+        "uncaught": false,
+        "x": 460,
+        "y": 60,
+        "wires": [
+            [
+                "a8c869c55382bed6"
+            ]
+        ]
+    },
+    {
+        "id": "a8c869c55382bed6",
+        "type": "function",
+        "z": "c1981345d770c737",
+        "g": "2a147ea80386da9a",
+        "name": "Clear Data",
+        "func": "global.set(\"PuissanceTotal\", [])\nglobal.set(\"PuissanceL1\", [])\nglobal.set(\"PuissanceL2\", [])\nglobal.set(\"PuissanceL3\", [])\nglobal.set(\"CourantL1\", [])\nglobal.set(\"CourantL2\", [])\nglobal.set(\"CourantL3\", [])\nglobal.set(\"TensionL1\", [])\nglobal.set(\"TensionL2\", [])\nglobal.set(\"TensionL3\", [])\nglobal.set(\"IndexPrelTotal\", [])\nglobal.set(\"IndexInjectTotal\", [])",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ad1a9a5352f229fb",
+        "type": "cronplus",
+        "z": "c1981345d770c737",
+        "g": "89b795d3b4f26f1d",
+        "name": "Start every 15 minutes",
+        "outputField": "payload",
+        "timeZone": "",
+        "storeName": "",
+        "commandResponseMsgOutput": "output1",
+        "defaultLocation": "",
+        "defaultLocationType": "default",
+        "outputs": 1,
+        "options": [
+            {
+                "name": "schedule1",
+                "topic": "topic1",
+                "payloadType": "date",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 */15 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            }
+        ],
+        "x": 220,
+        "y": 340,
+        "wires": [
+            [
+                "e069313775283bde"
+            ]
+        ]
+    },
+    {
+        "id": "e069313775283bde",
+        "type": "function",
+        "z": "c1981345d770c737",
+        "g": "89b795d3b4f26f1d",
+        "name": "Get All Onduleur Data",
+        "func": "let AllPayload = []\n\n// OnduleurTotalEnergy\nlet OnduleurTotalEnergy = global.get(\"OnduleurTotalEnergy\") || []\nif (OnduleurTotalEnergy.length > 0) {\n    OnduleurTotalEnergy.forEach(function (element) {\n        let DataArray = []\n        let datatopayload = { \"time\": element.time, \"OnduleurTotalEnergy\": element.data }\n        DataArray.push(datatopayload)\n        DataArray.push({})\n        AllPayload.push(DataArray)\n    });\n}\n\n// OnduleurActivePower\nlet OnduleurActivePower = global.get(\"OnduleurActivePower\") || []\nif (OnduleurActivePower.length > 0) {\n    OnduleurActivePower.forEach(function (element) {\n        let DataArray = []\n        let datatopayload = { \"time\": element.time, \"OnduleurActivePower\": element.data }\n        DataArray.push(datatopayload)\n        DataArray.push({})\n        AllPayload.push(DataArray)\n    });\n}\n\n\n\n// Send Msg\nif (AllPayload.length > 0) {\n    return { payload: AllPayload }\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 340,
+        "wires": [
+            [
+                "d74a86eb4342ec37"
+            ]
+        ]
+    },
+    {
+        "id": "d74a86eb4342ec37",
+        "type": "influxdb out",
+        "z": "c1981345d770c737",
+        "g": "89b795d3b4f26f1d",
+        "influxdb": "80bc49682e5f1b10",
+        "name": "Onduleur",
+        "measurement": "Onduleur",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "vanko",
+        "bucket": "Rixensart",
+        "x": 680,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "8fc2f141b831d70e",
+        "type": "complete",
+        "z": "c1981345d770c737",
+        "g": "89b795d3b4f26f1d",
+        "name": "Done Onduleur",
+        "scope": [
+            "d74a86eb4342ec37"
+        ],
+        "uncaught": false,
+        "x": 480,
+        "y": 280,
+        "wires": [
+            [
+                "02ad9929f161be3d"
+            ]
+        ]
+    },
+    {
+        "id": "02ad9929f161be3d",
+        "type": "function",
+        "z": "c1981345d770c737",
+        "g": "89b795d3b4f26f1d",
+        "name": "Clear Data",
+        "func": "global.set(\"OnduleurTotalEnergy\", [])\nglobal.set(\"OnduleurActivePower\", [])",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    }
+]
