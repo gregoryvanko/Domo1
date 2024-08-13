@@ -1,0 +1,13 @@
+FROM nodered/node-red:latest
+
+#USER root
+#RUN apk add py3-rpigpio
+
+USER node-red
+
+# Add package to install
+RUN npm install node-red-dashboard
+RUN npm install node-red-contrib-cron-plus
+RUN npm install node-red-contrib-influxdb
+RUN npm install node-red-contrib-modbus
+RUN npm install node-red-contrib-p1reader
