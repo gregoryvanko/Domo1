@@ -433,7 +433,7 @@
         "usetls": false,
         "tls": "",
         "influxdbVersion": "2.0",
-        "url": "https://influxdb.vanko.be",
+        "url": "${INFLUX_URL}",
         "timeout": "10",
         "rejectUnauthorized": true
     },
@@ -457,11 +457,11 @@
         "serialParity": "none",
         "serialConnectionDelay": "100",
         "serialAsciiResponseStartDelimiter": "0x3A",
-        "unit_id": "1",
-        "commandDelay": "1",
-        "clientTimeout": "1000",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
         "reconnectOnTimeout": true,
-        "reconnectTimeout": "2000",
+        "reconnectTimeout": 2000,
         "parallelUnitIdsAllowed": true,
         "showErrors": true,
         "showWarnings": true,
@@ -513,7 +513,7 @@
         "type": "p1reader",
         "z": "7f2e15530399ec7c",
         "name": "Ores",
-        "port": "${P1READER-PORT}",
+        "port": "${P1READER_PORT}",
         "baudRate": 115200,
         "parity": "none",
         "dataBits": 8,
@@ -2675,7 +2675,7 @@
         "z": "cd71e8e6a42e141d",
         "g": "3f39382a7f031207",
         "name": "Set Modbus configuration",
-        "func": "msg.payload = {\n    'connectorType': 'TCP',\n    'tcpHost': env.get(\"ONDULEUR-IP\")\n}\nreturn msg;",
+        "func": "msg.payload = {\n    'connectorType': 'TCP',\n    'tcpHost': env.get(\"ONDULEUR_IP\")\n}\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -2789,8 +2789,8 @@
         "database": "database",
         "precisionV18FluxV20": "ms",
         "retentionPolicyV18Flux": "",
-        "org": "vanko",
-        "bucket": "Rixensart",
+        "org": "${INFLUX_ORGA}",
+        "bucket": "${INFLUX_BUCKET}",
         "x": 670,
         "y": 120,
         "wires": []
@@ -2901,8 +2901,8 @@
         "database": "database",
         "precisionV18FluxV20": "ms",
         "retentionPolicyV18Flux": "",
-        "org": "vanko",
-        "bucket": "Rixensart",
+        "org": "${INFLUX_ORGA}",
+        "bucket": "${INFLUX_BUCKET}",
         "x": 680,
         "y": 340,
         "wires": []
@@ -2940,6 +2940,53 @@
         "libs": [],
         "x": 650,
         "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b569ae4e40386195",
+        "type": "inject",
+        "z": "c1981345d770c737",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 480,
+        "wires": [
+            [
+                "7759b9ea02668e8f"
+            ]
+        ]
+    },
+    {
+        "id": "7759b9ea02668e8f",
+        "type": "function",
+        "z": "c1981345d770c737",
+        "name": "function 1",
+        "func": "let foo = env.get(\"INFLUX_BUCKET\");\nnode.warn(foo);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 480,
         "wires": [
             []
         ]

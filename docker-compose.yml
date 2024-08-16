@@ -9,9 +9,12 @@ services:
     network_mode: host
     environment:
       - TZ=Europe/Brussels
-      - ONDULEUR-IP=192.168.30.8
-      - P1READER-PORT=/dev/ttyUSB0
-      - INFLUX=VKo5S05Tx6v7mJ-D0dFfwWCjcb_Tb_698PTRVoRRHd_9EFeoxs_fxzNhZwHDPnNHnryVnKJth4mnoz1UHHBWYw==
+      - ONDULEUR_IP=192.168.30.8
+      - P1READER_PORT=/dev/ttyUSB0
+      - INFLUX_TOKEN=${INFLUX_TOKEN:?error}
+      - INFLUX_URL=${INFLUX_URL:?error}
+      - INFLUX_ORGA=${INFLUX_ORGA:?error}
+      - INFLUX_BUCKET=${INFLUX_BUCKET:?error}
     ports:
       - "1880:1880"
     devices:
@@ -27,5 +30,5 @@ services:
 #    restart: unless-stopped
 #    command: tunnel run
 #    environment:
-#      - TUNNEL_TOKEN=${CLOUDFLARED_TOKEN}
+#      - TUNNEL_TOKEN=${CLOUDFLARED_TOKEN:?error}
 #    network_mode: host
