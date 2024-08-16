@@ -513,7 +513,7 @@
         "type": "p1reader",
         "z": "7f2e15530399ec7c",
         "name": "Ores",
-        "port": "{{env.P1READER-PORT}}",
+        "port": "${P1READER-PORT}",
         "baudRate": 115200,
         "parity": "none",
         "dataBits": 8,
