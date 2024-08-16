@@ -42,7 +42,7 @@ module.exports = {
      * lost.
      */
    //credentialSecret: "gregory",
-    credentialSecret: false
+    credentialSecret: false,
 
     /** By default, the flow JSON will be formatted over multiple lines making
      * it easier to compare changes when using version control.
