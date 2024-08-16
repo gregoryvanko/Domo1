@@ -18,7 +18,7 @@ sudo reboot
 
 Installer git
 ```
-sudo apt install git
+sudo apt install git -y
 ```
 
 Cloner le repo git
