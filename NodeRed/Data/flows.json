@@ -2943,52 +2943,5 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "b569ae4e40386195",
-        "type": "inject",
-        "z": "c1981345d770c737",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 110,
-        "y": 480,
-        "wires": [
-            [
-                "7759b9ea02668e8f"
-            ]
-        ]
-    },
-    {
-        "id": "7759b9ea02668e8f",
-        "type": "function",
-        "z": "c1981345d770c737",
-        "name": "function 1",
-        "func": "let foo = env.get(\"INFLUX_BUCKET\");\nnode.warn(foo);\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 300,
-        "y": 480,
-        "wires": [
-            []
-        ]
     }
 ]
