@@ -9,6 +9,8 @@ services:
     network_mode: host
     environment:
       - TZ=Europe/Brussels
+      - ONDULEUR-IP=192.168.30.8
+      - P1READER-PORT=/dev/ttyUSB0
     ports:
       - "1880:1880"
     devices:
@@ -18,11 +20,11 @@ services:
     group_add:
       - dialout
   
-  cloudflared:
-    container_name: cloudflared
-    image: cloudflare/cloudflared
-    restart: unless-stopped
-    command: tunnel run
-    environment:
-      - TUNNEL_TOKEN=${CLOUDFLARED_TOKEN}
-    network_mode: host
+#  cloudflared:
+#    container_name: cloudflared
+#    image: cloudflare/cloudflared
+#    restart: unless-stopped
+#    command: tunnel run
+#    environment:
+#      - TUNNEL_TOKEN=${CLOUDFLARED_TOKEN}
+#    network_mode: host
