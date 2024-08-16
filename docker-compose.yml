@@ -11,6 +11,7 @@ services:
       - TZ=Europe/Brussels
       - ONDULEUR-IP=192.168.30.8
       - P1READER-PORT=/dev/ttyUSB0
+      - INFLUX=VKo5S05Tx6v7mJ-D0dFfwWCjcb_Tb_698PTRVoRRHd_9EFeoxs_fxzNhZwHDPnNHnryVnKJth4mnoz1UHHBWYw==
     ports:
       - "1880:1880"
     devices:
