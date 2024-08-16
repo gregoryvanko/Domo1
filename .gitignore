@@ -3,7 +3,6 @@
 **.sessions.json
 **package.json
 node_modules
-**flows_cred.json
 
 # Logs
 logs
