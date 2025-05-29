@@ -3,6 +3,9 @@ Domotique node
 
 Le module de contrôle du système est un Raspberry Pi modèle 3 B. Il est alimenté par une alimentation externe 5v 3A.
 
+## Shéma de fonctionnement
+![Alt text](Schema.jpg)
+
 ## Installation du RaspberryPi
 Réaliser un un update et un upgrade
 ```
