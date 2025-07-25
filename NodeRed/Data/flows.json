@@ -67,7 +67,8 @@
             "0c8f2177406684b9",
             "e484cc4020839de7",
             "27ce89884027278f",
-            "3b96544ded41375b"
+            "3b96544ded41375b",
+            "6b2a4bcdfe8b7db4"
         ],
         "x": 154,
         "y": 279,
@@ -446,7 +447,7 @@
         "stateLogEnabled": true,
         "queueLogEnabled": false,
         "failureLogEnabled": true,
-        "tcpHost": "192.168.30.8",
+        "tcpHost": "192.168.30.19",
         "tcpPort": "502",
         "tcpType": "DEFAULT",
         "serialPort": "/dev/ttyUSB",
@@ -457,11 +458,11 @@
         "serialParity": "none",
         "serialConnectionDelay": "100",
         "serialAsciiResponseStartDelimiter": "0x3A",
-        "unit_id": 1,
-        "commandDelay": 1,
-        "clientTimeout": 1000,
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
         "reconnectOnTimeout": true,
-        "reconnectTimeout": 2000,
+        "reconnectTimeout": "2000",
         "parallelUnitIdsAllowed": true,
         "showErrors": true,
         "showWarnings": true,
@@ -1989,7 +1990,8 @@
         "wires": [
             [],
             [
-                "e484cc4020839de7"
+                "e484cc4020839de7",
+                "6b2a4bcdfe8b7db4"
             ]
         ]
     },
@@ -2719,6 +2721,23 @@
                 "2fcf7d1217b38bdd"
             ]
         ]
+    },
+    {
+        "id": "6b2a4bcdfe8b7db4",
+        "type": "debug",
+        "z": "cd71e8e6a42e141d",
+        "g": "eac495db649eb880",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 320,
+        "wires": []
     },
     {
         "id": "ee19af1777c4b76a",
